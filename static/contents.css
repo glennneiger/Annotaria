@@ -1,0 +1,28 @@
+body
+{
+	background-color: white;
+	font-family: Open Sans;
+	font-size: medium;
+	color: black;
+}
+
+.tagHeader
+{
+	background-color: #847cba;
+	border: thin solid black;
+	margin: 2px;
+	padding: 2px;
+	font-family: "Palatino";
+	font-size: small;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+
+	/* Set HTML text unselectable */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

@@ -1,0 +1,20 @@
+# Protect the htaccess file
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Protect python files
+<Files *.py>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Protect log files
+<Files flask.log>
+Order Allow,Deny
+Deny from all
+</Files>
+
+Redirect permanent /images/ http://annotaria.web.cs.unibo.it/documents/images/  
+Redirect permanent /jats-preview.css /wsgi/static/css/jats-preview.css

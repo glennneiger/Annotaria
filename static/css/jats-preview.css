@@ -1,0 +1,247 @@
+.x-tabpanel-child body {
+  margin-left: 8%;
+  margin-right: 8%;
+  background-color: #f8f8f8;
+}
+.x-tabpanel-child div {
+  margin-top: 0.5em;
+}
+.x-tabpanel-child div > *:first-child {
+  margin-top: 0em;
+}
+.x-tabpanel-child .back,
+.x-tabpanel-child .body {
+  font-family: serif;
+}
+.x-tabpanel-child div.metadata {
+  font-family: sans-serif;
+}
+.x-tabpanel-child div.metadata div.cell {
+  vertical-align: top;
+}
+.x-tabpanel-child div.centered {
+  text-align: center;
+}
+.x-tabpanel-child div.table {
+  display: table;
+}
+.x-tabpanel-child div.metadata.table {
+  width: 100%;
+}
+.x-tabpanel-child div.row {
+  display: table-row;
+}
+.x-tabpanel-child div.cell {
+  display: table-cell;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+.x-tabpanel-child div.two-column div.cell {
+  width: 50%;
+}
+.x-tabpanel-child div.one-column div.cell.spanning {
+  width: 100%;
+}
+.x-tabpanel-child div.metadata-group {
+  margin-top: 0.5em;
+  font-size: 75%;
+}
+div.metadata-group .x-tabpanel-child > p,
+div.metadata-group .x-tabpanel-child > div {
+  margin-top: 0.5em;
+}
+.x-tabpanel-child div.metadata-area * {
+  margin: 0em;
+}
+.x-tabpanel-child div.metadata-chunk {
+  margin-left: 1em;
+}
+.x-tabpanel-child div.branding {
+  text-align: center;
+}
+.x-tabpanel-child div.document-title-notes {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.x-tabpanel-child div.footnote {
+  font-size: 90%;
+}
+.x-tabpanel-child hr.part-rule {
+  border: thin solid black;
+  width: 50%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.x-tabpanel-child hr.section-rule {
+  border: thin dotted black;
+  width: 50%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.x-tabpanel-child .xref {
+  color: red;
+}
+.x-tabpanel-child .generated {
+  color: gray;
+}
+.x-tabpanel-child .warning,
+.x-tabpanel-child tex-math {
+  font-size: 80%;
+  font-family: sans-serif;
+}
+.x-tabpanel-child .warning {
+  color: red;
+}
+.x-tabpanel-child .tex-math {
+  color: green;
+}
+.x-tabpanel-child .data {
+  color: black;
+}
+.x-tabpanel-child .formula {
+  font-family: sans-serif;
+  font-size: 90%;
+}
+.x-tabpanel-child h1,
+.x-tabpanel-child h2,
+.x-tabpanel-child h3,
+.x-tabpanel-child h4,
+.x-tabpanel-child h5,
+.x-tabpanel-child h6 {
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  color: midnightblue;
+}
+.x-tabpanel-child .document-title {
+  text-align: center;
+}
+.x-tabpanel-child .callout-title {
+  text-align: right;
+  margin-top: 0.5em;
+  margin-right: 1em;
+  font-size: 140%;
+}
+.x-tabpanel-child div.section,
+.x-tabpanel-child div.back-section {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.x-tabpanel-child div.panel {
+  background-color: white;
+  font-size: 90%;
+  border: thin solid black;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.x-tabpanel-child div.blockquote {
+  font-size: 90%;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.x-tabpanel-child div.caption {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.x-tabpanel-child div.speech {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.x-tabpanel-child div.verse-group {
+  margin-left: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.x-tabpanel-child div.verse-group div.verse-group {
+  margin-left: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.x-tabpanel-child div.note {
+  margin-top: 0em;
+  margin-left: 1em;
+  font-size: 85%;
+}
+.x-tabpanel-child .ref-label {
+  margin-top: 0em;
+  vertical-align: top;
+}
+.x-tabpanel-child .ref-content {
+  margin-top: 0em;
+  padding-left: 0.25em;
+}
+.x-tabpanel-child h5.label {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.x-tabpanel-child p {
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+}
+.x-tabpanel-child p.first {
+  margin-top: 0em;
+}
+.x-tabpanel-child p.verse-line,
+.x-tabpanel-child p.citation {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 2em;
+  text-indent: -2em;
+}
+.x-tabpanel-child p.address-line {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 2em;
+}
+.x-tabpanel-child ul,
+.x-tabpanel-child ol {
+  margin-top: 0.5em;
+}
+.x-tabpanel-child li {
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+}
+.x-tabpanel-child li > p {
+  margin-top: 0.2em;
+  margin-bottom: 0em;
+}
+.x-tabpanel-child div.def-list {
+  border-spacing: 0.25em;
+}
+.x-tabpanel-child div.def-list div.cell {
+  vertical-align: top;
+  border-bottom: thin solid black;
+  padding-bottom: 0.5em;
+}
+.x-tabpanel-child div.def-list div.def-list-head {
+  text-align: left;
+}
+.x-tabpanel-child .label {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 80%;
+}
+.x-tabpanel-child .monospace {
+  font-family: monospace;
+}
+.x-tabpanel-child .overline {
+  text-decoration: overline;
+}
+.x-tabpanel-child a {
+  text-decoration: none;
+}
+.x-tabpanel-child a:hover {
+  text-decoration: underline;
+}

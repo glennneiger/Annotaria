@@ -1,0 +1,81 @@
+.logoAnnotaria
+{
+	display: none !important;
+}
+
+#treeAnnotations .x-tree-node-expanded .x-tree-node-icon
+{
+    background-image: url("logoSmall.png") !important;
+    background-repeat: no-repeat;
+}
+
+#treeAnnotations .x-tree-node-collapsed .x-tree-node-icon
+{
+    background-image: url("logoSmall.png") !important;
+    background-repeat: no-repeat;
+}
+
+#nameApplication
+{
+	font-family: "Palatino" !important;
+	font-size: xx-large;
+	font-style: italic !important;
+	color: #847cba !important;
+}
+
+[annotariaStyle = "denotesPerson"]
+{
+	color : green;
+}	
+[annotariaStyle = "denotesPlace"]
+{
+	color : teal;
+}
+[annotariaStyle = "denotesDisease"]
+{
+	color : olive;
+}
+[annotariaStyle = "hasSubject"]
+{
+	color : saddlebrown;
+}	
+[annotariaStyle = "relatesTo"]
+{
+	color : orange;
+}
+[annotariaStyle = "hasClarityScore"]
+{
+	color : red;
+}
+[annotariaStyle = "hasOriginalityScore"]
+{
+	color : purple;
+}
+[annotariaStyle = "hasFormattingScore"]
+{
+	color : indigo;
+}
+[annotariaStyle = "cites"]
+{
+	color : blue;
+}
+[annotariaStyle = "hasComment"]
+{
+	color : deepskyblue;
+}
+[annotariaStyle] [annotariaStyle]
+{
+	color : gray;
+}
+[annotariaStyle] [annotariaStyle = "hidden"]
+{
+	color : black;
+}
+[annotariaStyle = "hidden"]
+{
+	color : black;
+}
+[annotariaStyle]
+{
+	cursor: pointer;
+}
